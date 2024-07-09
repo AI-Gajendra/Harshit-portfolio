@@ -1,78 +1,4 @@
-/* =================================================================== 
- * Augustine Main Stylesheet
- * Template Ver. 1.0.0
- * 03-16-2022
- * ------------------------------------------------------------------
- *
- * TOC:
- * # SETTINGS
- *      ## fonts
- *      ## colors
- *      ## spacing and typescale
- *      ## grid variables
- * # NORMALIZE
- * # BASE SETUP
- * # GRID 
- *      ## large screen devices 
- *      ## medium screen devices 
- *      ## tablet devices 
- *      ## mobile devices 
- *      ## small screen devices 
- *      ## additional column stackpoints 
- * # UTILITY CLASSES
- * # TYPOGRAPHY 
- *      ## base type styles
- *      ## additional typography & helper classes
- *      ## lists
- *      ## spacing
- * # PRELOADER
- * # FORM
- *      ## style placeholder text
- *      ## change autocomplete styles in Chrome
- * # BUTTONS
- * # TABLE
- * # COMPONENTS
- *      ## pagination
- *      ## alert box 
- *      ## skillbars 
- *      ## stats tabs
- * # PROJECT-WIDE SHARED STYLES
- *      ## theme-specific typography classes
- *      ## media classes
- *      ## swiper overrides
- * # PAGE WRAP
- * # SITE HEADER
- *      ## branding
- *      ## main navigation
- *      ## header social
- *      ## mobile menu toggle
- * # INTRO
- *      ## intro text
- *      ## intro bg
- * # ABOUT
- *      ## about timelines
- *      ## about skills
- *      ## about clients
- * # WORKS
- *      ## portfolio list
- *      ## testimonial slider
- * # FOOTER
- *      ## copyright
- *      ## go top
- *
- *
- * ------------------------------------------------------------------ */
 
-
-/* ===================================================================
- * # SETTINGS
- *
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## fonts 
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap");
 
 :root {
@@ -3231,7 +3157,7 @@ img.u-pull-left {
 }
 
 .s-intro__text-huge {
-    --text-huge-size : 24.6rem;
+    --text-huge-size : 12.6rem;
     font-size        : var(--text-huge-size);
     line-height      : 1;
     letter-spacing   : -0.015em;
@@ -3242,7 +3168,7 @@ img.u-pull-left {
 
 /* --------------------------------------------------------------------
  * ## intro bg
- * -------------------------------------------------------------------- */
+ * -------------------------------------------------------------------- 
 .s-intro__bg {
     aspect-ratio        : 1/1;
     width               : 100%;
@@ -3252,7 +3178,7 @@ img.u-pull-left {
     background-position : center;
     background-size     : cover;
     position            : relative;
-}
+} 
 
 .s-intro__bg::after {
     display        : block;
